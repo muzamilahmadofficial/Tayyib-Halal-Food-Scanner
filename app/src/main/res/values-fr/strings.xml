@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tayyib</string>
+    <string name="app_full_name">Tayyib : Scanner Alimentaire Halal</string>
+    <string name="app_tagline">Scannez. Comprenez. Choisissez sereinement.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_scan">Scanner</string>
+    <string name="nav_alternatives">Alternatives</string>
+    <string name="nav_history">Historique</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Verdicts -->
+    <string name="verdict_halal">Halal</string>
+    <string name="verdict_haram">Haram</string>
+    <string name="verdict_doubtful">Douteux</string>
+    <string name="verdict_unknown">Inconnu</string>
+
+    <!-- Home -->
+    <string name="home_welcome_eyebrow">COMPAGNON HALAL INDÉPENDANT</string>
+    <string name="home_welcome_title">La sérénité à chaque scan</string>
+    <string name="home_welcome_subtitle">Analysez vos produits emballés, additifs E et origines d\'ingrédients partout dans le monde, sans création de compte.</string>
+    <string name="home_scan_cta">Scanner un code-barres</string>
+    <string name="home_search_hint">Rechercher un produit, une marque ou un code…</string>
+    <string name="home_tools_section">Outils d\'analyse</string>
+    <string name="home_tool_search">Recherche produit</string>
+    <string name="home_tool_checker">Analyse d\'ingrédients</string>
+    <string name="home_tool_enumbers">Guide des additifs E</string>
+    <string name="home_tool_alternatives">Alternatives Halal</string>
+    <string name="home_tool_favourites">Produits favoris</string>
+    <string name="home_recent_scans">Scans récents</string>
+    <string name="home_discover_title">Produits Halal en direct</string>
+    <string name="home_discover_subtitle">Produits réels récupérés en direct et analysés par Tayyib</string>
+    <string name="home_see_all">Tout voir</string>
+    <string name="home_empty_recent">Aucun scan pour le moment. Scannez un code-barres ou utilisez l\'analyseur d\'ingrédients hors ligne.</string>
+
+    <!-- Scanner -->
+    <string name="scanner_title">Scanner un code-barres</string>
+    <string name="scanner_instruction">Placez le code-barres dans le cadre</string>
+    <string name="scanner_manual_entry">Saisir le code</string>
+    <string name="scanner_flashlight">Lampe torche</string>
+    <string name="scanner_permission_title">Accès à la caméra requis</string>
+    <string name="scanner_permission_desc">Tayyib utilise votre caméra uniquement sur l\'appareil pour lire les codes-barres. Aucune photo ni vidéo n\'est envoyée ou enregistrée.</string>
+    <string name="scanner_permission_grant">Autoriser la caméra</string>
+    <string name="scanner_loading">Analyse du produit et des ingrédients…</string>
+    <string name="scanner_not_found_title">Nous n\'avons pas trouvé ce produit.</string>
+    <string name="scanner_not_found_desc">Ce code-barres ne figure pas encore dans Halal Open Food Facts. Un produit inconnu n\'est pas classé Haram : recherchez-le manuellement ou analysez ses ingrédients.</string>
+    <string name="scanner_try_again">Scanner à nouveau</string>
+    <string name="scanner_manual_dialog_title">Saisir un code-barres</string>
+    <string name="scanner_manual_dialog_hint">ex. 3017620422003</string>
+    <string name="scanner_invalid_barcode">Veuillez saisir un code-barres valide (8 à 14 chiffres).</string>
+    <string name="scanner_offline_notice">Mode hors ligne. Les données en cache sont affichées si disponibles ; Internet est requis pour les nouveaux codes.</string>
+
+    <!-- Product Details -->
+    <string name="detail_title">Évaluation du produit</string>
+    <string name="detail_barcode">Code-barres</string>
+    <string name="detail_brand">Marque</string>
+    <string name="detail_countries">Pays</string>
+    <string name="detail_evidence_breakdown">Détail de l\'évaluation</string>
+    <string name="detail_community_assessment">Évaluation communautaire</string>
+    <string name="detail_ingredient_analysis">Analyse des ingrédients</string>
+    <string name="detail_certification_check">Certifications</string>
+    <string name="detail_final_assessment">Évaluation Tayyib</string>
+    <string name="detail_ingredients">Ingrédients</string>
+    <string name="detail_ingredients_missing">Liste d\'ingrédients indisponible dans la base de données pour ce produit.</string>
+    <string name="detail_additives">Additifs et points d\'attention détectés</string>
+    <string name="detail_allergens">Allergènes</string>
+    <string name="detail_data_source">Source et fraîcheur des données</string>
+    <string name="detail_cached_warning">Affiché depuis le cache hors ligne — non vérifié en ligne à l\'instant.</string>
+    <string name="detail_find_alternatives">Trouver des alternatives Halal</string>
+    <string name="detail_inline_alternatives_title">Alternatives Halal suggérées</string>
+    <string name="detail_inline_alternatives_loading">Recherche d\'alternatives Halal en direct…</string>
+    <string name="detail_recheck">Revérifier en ligne</string>
+    <string name="detail_report_issue">Signaler une erreur</string>
+    <string name="detail_share">Partager</string>
+    <string name="detail_favourite_add">Ajouter aux favoris</string>
+    <string name="detail_favourite_remove">Enregistré dans les favoris</string>
+
+    <!-- Alternatives -->
+    <string name="alternatives_title">Alternatives Halal</string>
+    <string name="alternatives_subtitle">Découvrez des produits similaires disposant d\'éléments favorables sur Halal Open Food Facts.</string>
+    <string name="alternatives_empty">Aucune alternative vérifiée trouvée pour le moment.</string>
+    <string name="alternatives_search_category">Rechercher une catégorie (ex. biscuits, chocolat, fromage)</string>
+
+    <!-- Search -->
+    <string name="search_title">Recherche de produits</string>
+    <string name="search_placeholder">Nom du produit, marque ou code-barres</string>
+    <string name="search_country_hint">Filtre pays (optionnel, ex. France, Maroc, Canada)</string>
+    <string name="search_category_hint">Catégorie (optionnelle, ex. biscuits, boissons)</string>
+    <string name="search_empty">Saisissez un nom de produit, une marque ou un code-barres pour interroger Halal Open Food Facts.</string>
+    <string name="search_no_results">Aucun produit correspondant à votre recherche.</string>
+    <string name="search_load_more">Charger plus de résultats</string>
+
+    <!-- Ingredient Checker -->
+    <string name="checker_title">Analyseur d\'ingrédients</string>
+    <string name="checker_subtitle">Scannez une étiquette avec la caméra Lens, choisissez une photo ou collez une liste d\'ingrédients en français ou en anglais pour identifier hors ligne les additifs E, dérivés animaux et termes liés à l\'alcool.</string>
+    <string name="checker_input_hint">ex. Sucre, farine de blé, gélatine, E471, E120, lécithine de soja…</string>
+    <string name="checker_analyze_btn">Analyser les ingrédients</string>
+    <string name="checker_clear_btn">Effacer</string>
+    <string name="checker_disclaimer">Remarque : cette analyse porte uniquement sur le texte scanné ou saisi et ne constitue pas une certification officielle du produit.</string>
+    <string name="checker_lens_title">Scanner d\'étiquette Lens</string>
+    <string name="checker_lens_subtitle">Visez la liste d\'ingrédients ou choisissez une photo : le texte est lu hors ligne sur l\'appareil et analysé immédiatement.</string>
+    <string name="checker_lens_camera">Caméra Lens</string>
+    <string name="checker_lens_photo">Depuis photo</string>
+    <string name="checker_google_lens_app">Ouvrir l\'app Google Lens</string>
+    <string name="checker_lens_guide">Cadrez nettement la liste d\'ingrédients dans le rectangle</string>
+    <string name="checker_lens_capture_btn">Capturer et analyser</string>
+    <string name="checker_lens_reading">Lecture des ingrédients…</string>
+    <string name="checker_lens_extracted">Ingrédients extraits via Lens OCR et analysés ci-dessous. Vous pouvez corriger le texte si besoin.</string>
+    <string name="checker_lens_no_text">Aucun texte d\'ingrédients lisible trouvé dans cette photo. Essayez un cliché plus net et mieux éclairé.</string>
+    <string name="checker_google_lens_hint">Google Lens ouvert : copiez la liste d\'ingrédients puis collez-la ici dans Tayyib pour l\'analyser.</string>
+    <string name="checker_google_lens_unavailable">L\'application Google Lens n\'est pas installée sur cet appareil. Utilisez la Caméra Lens intégrée ou Depuis photo ci-dessus.</string>
+    <string name="scanner_lens_ingredients">Scanner ingrédients</string>
+
+    <!-- E-Number Guide -->
+    <string name="enumber_title">Guide des additifs E</string>
+    <string name="enumber_search_hint">Rechercher un code E ou un nom (ex. E471, gélatine, carmin)…</string>
+    <string name="enumber_filter_all">Tous</string>
+    <string name="enumber_origin">Origine typique</string>
+    <string name="enumber_alternatives">Origines alternatives</string>
+    <string name="enumber_function">Fonction</string>
+
+    <!-- History & Favourites -->
+    <string name="history_title">Historique des scans</string>
+    <string name="history_clear">Vider l\'historique</string>
+    <string name="history_clear_confirm">Supprimer tout l\'historique local ? Vos favoris seront conservés.</string>
+    <string name="history_empty">Vos produits scannés apparaîtront ici localement sur votre appareil.</string>
+    <string name="favourites_title">Produits favoris</string>
+    <string name="favourites_empty">Touchez l\'icône favori sur un produit pour le retrouver ici hors ligne.</string>
+
+    <!-- Settings, About & Legal -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_theme">Apparence</string>
+    <string name="settings_sound">Sons de scan et verdict</string>
+    <string name="settings_vibration">Retour par vibration</string>
+    <string name="settings_clear_cache">Vider le cache produits</string>
+    <string name="settings_clear_history">Effacer l\'historique</string>
+    <string name="settings_about">À propos de Tayyib</string>
+    <string name="settings_legal_section">Mentions légales et méthodologie</string>
+    <string name="legal_privacy">Politique de confidentialité</string>
+    <string name="legal_terms">Conditions d\'utilisation</string>
+    <string name="legal_methodology">Méthodologie de classification Halal</string>
+    <string name="legal_disclaimer">Avertissement religieux</string>
+    <string name="legal_attribution">Sources de données et attribution</string>
+    <string name="legal_licenses">Licences open-source</string>
+
+    <!-- Common -->
+    <string name="action_cancel">Annuler</string>
+    <string name="action_confirm">Confirmer</string>
+    <string name="action_retry">Réessayer</string>
+    <string name="action_open_email">Préparer le brouillon d\'e-mail</string>
+    <string name="action_back">Retour</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Gold geometric 8-point star frame -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,4 L30,10 L38,10 L38,18 L44,24 L38,30 L38,38 L30,38 L24,44 L18,38 L10,38 L10,30 L4,24 L10,18 L10,10 L18,10 Z"
+        android:strokeWidth="2.0"
+        android:strokeColor="#C9A45C" />
+    <!-- Left leaf check stroke -->
+    <path
+        android:fillColor="#F8F6EF"
+        android:pathData="M13.5,22.5 C13.5,29.5 18,33.5 22.2,34.6 L18.5,26.8 C16.9,24.4 15.2,23 13.5,22.5 Z" />
+    <!-- Right tall botanical leaf -->
+    <path
+        android:fillColor="#F8F6EF"
+        android:pathData="M34.2,14.5 C27.8,14.5 23.2,19.4 21.1,26.2 L23.5,34.6 C30.5,33.2 35.1,25.5 34.2,14.5 Z" />
+</vector>

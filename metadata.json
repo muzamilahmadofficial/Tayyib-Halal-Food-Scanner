@@ -1,0 +1,6 @@
+{
+  "name": "Tayyib: Halal Food Scanner",
+  "description": "Independent worldwide Halal food barcode scanner, ingredient and E-number analyzer, and Halal alternatives guide in English and French.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

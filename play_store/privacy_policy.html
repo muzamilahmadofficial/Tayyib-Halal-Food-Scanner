@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0E3B2C" />
+  <meta name="description" content="Privacy Policy and Religious Disclaimer for Tayyib: Halal Food Scanner by Muzamil Ahmad." />
+  <meta property="og:title" content="Tayyib: Halal Food Scanner — Privacy Policy" />
+  <meta property="og:description" content="Account-free, privacy-first Halal food scanner for Android. Read our privacy policy and methodology." />
+  <meta property="og:image" content="./assets/tayyib_feature_graphic_1024x500.png" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <title>Privacy Policy — Tayyib: Halal Food Scanner</title>
+  <style>
+    :root {
+      --forest: #123D32;
+      --dark: #09271F;
+      --ivory: #F8F6EF;
+      --gold: #C9A45C;
+      --surface: #FFFFFF;
+      --text: #1B2824;
+      --muted: #526660;
+      --border: #E0E6E2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--ivory);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--dark), var(--forest));
+      color: var(--ivory);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .brand-logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      border: 2px solid rgba(201, 164, 92, 0.5);
+      margin-bottom: 14px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.85rem; }
+    header p { margin: 0; color: var(--gold); font-weight: 500; }
+    .lang-bar {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .lang-bar button {
+      border: 1px solid rgba(248, 246, 239, 0.35);
+      background: transparent;
+      color: var(--ivory);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .lang-bar button.active {
+      background: var(--gold);
+      color: var(--dark);
+      border-color: var(--gold);
+    }
+    main {
+      max-width: 780px;
+      margin: 28px auto 60px;
+      padding: 0 18px;
+    }
+    section.card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 18px;
+    }
+    h2 {
+      color: var(--forest);
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+      padding: 16px;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./assets/tayyib_app_icon_512.png" alt="Tayyib Logo" class="brand-logo" />
+    <h1>Tayyib: Halal Food Scanner</h1>
+    <p>Privacy Policy &amp; Religious Disclaimer / Politique de confidentialité</p>
+    <div class="lang-bar">
+      <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+      <button id="btn-fr" onclick="setLang('fr')">Français</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="content-en">
+      <section class="card">
+        <h2>1. Zero Account &amp; Local-First Privacy</h2>
+        <p><strong>Tayyib: Halal Food Scanner</strong> (<code>com.muzamilahmad.tayyib</code>) is developed independently by <strong>Muzamil Ahmad</strong>. The app works completely without creating an account, signing in, or providing your name, email address, or phone number.</p>
+      </section>
+      <section class="card">
+        <h2>2. Data Stored Locally on Your Device</h2>
+        <p>Your scan history, saved favourites, offline product cache, and app preferences (language, theme, sound, vibration) are stored exclusively on your device using Android Room and DataStore. You may clear scan history or product cache at any time inside Settings.</p>
+      </section>
+      <section class="card">
+        <h2>3. Camera &amp; Zero-Permission Photo Picker</h2>
+        <p>Camera access is used solely on-device via Android CameraX, Google ML Kit Barcode Scanning, and Google ML Kit Text Recognition (Lens OCR) to read food barcodes and ingredient labels. Photo selection uses Android's built-in Photo Picker with zero storage permissions. Tayyib never records, stores, or transmits your camera frames or photos.</p>
+      </section>
+      <section class="card">
+        <h2>4. Network Requests &amp; Data Sources</h2>
+        <p>When scanning or searching products online, Tayyib sends HTTPS requests containing only the barcode or search query to <strong>Halal Open Food Facts</strong> (<code>halalopenfoodfacts.org</code>), with automatic live fallback to <strong>Open Food Facts</strong> (<code>world.openfoodfacts.org</code>) if the primary service is unavailable. No advertising IDs, analytics trackers, or user profiles are transmitted.</p>
+      </section>
+      <section class="card">
+        <h2>5. No Ads or Third-Party Tracking</h2>
+        <p>Tayyib contains no advertising SDKs, no behavioural analytics trackers, and does not sell or share personal data.</p>
+      </section>
+      <section class="card">
+        <h2>6. Religious &amp; Independence Disclaimer</h2>
+        <p>Tayyib provides informational assessments based on available product data, ingredient lists, labels, community evaluations and other referenced sources. Tayyib is an independent application and is not a Halal certification authority or religious institution. Product information may be incomplete, outdated or incorrect. Users should always check physical packaging and consult trusted certification bodies or qualified religious authorities when uncertain.</p>
+      </section>
+      <section class="card">
+        <h2>7. Contact the Developer</h2>
+        <p>Independent Developer: <strong>Muzamil Ahmad</strong><br />
+        Email: <a href="mailto:Muzamilofficially@gmail.com">Muzamilofficially@gmail.com</a><br />
+        LinkedIn: <a href="https://www.linkedin.com/in/muzamilahmadofficial" target="_blank" rel="noopener">linkedin.com/in/muzamilahmadofficial</a></p>
+      </section>
+    </div>
+
+    <div id="content-fr" class="hidden">
+      <section class="card">
+        <h2>1. Sans compte et confidentialité locale</h2>
+        <p><strong>Tayyib : Scanner Alimentaire Halal</strong> (<code>com.muzamilahmad.tayyib</code>) est développé de manière indépendante par <strong>Muzamil Ahmad</strong>. L'application fonctionne entièrement sans création de compte, sans connexion et sans collecte de nom, d'e-mail ou de numéro de téléphone.</p>
+      </section>
+      <section class="card">
+        <h2>2. Données enregistrées sur votre appareil</h2>
+        <p>Votre historique de scans, vos favoris, le cache des produits consultés et vos préférences (langue, thème, son, vibration) sont conservés exclusivement sur votre appareil via Room et DataStore. Vous pouvez effacer l'historique ou le cache à tout moment dans les Paramètres.</p>
+      </section>
+      <section class="card">
+        <h2>3. Caméra et sélecteur de photos</h2>
+        <p>L'accès à la caméra sert uniquement sur l'appareil via CameraX et Google ML Kit (lecture de codes-barres et reconnaissance de texte Lens) pour lire les codes-barres et étiquettes d'ingrédients. La sélection d'image utilise le sélecteur Android sans autorisation de stockage. Aucune photo ni vidéo n'est enregistrée ou transmise.</p>
+      </section>
+      <section class="card">
+        <h2>4. Requêtes réseau et sources de données</h2>
+        <p>Lors d'un scan ou d'une recherche en ligne, Tayyib transmet uniquement le code-barres ou les termes de recherche en HTTPS à <strong>Halal Open Food Facts</strong> (<code>halalopenfoodfacts.org</code>), avec bascule automatique de secours vers <strong>Open Food Facts</strong> (<code>world.openfoodfacts.org</code>) en cas d'indisponibilité. Aucun identifiant publicitaire ni profil utilisateur n'est transmis.</p>
+      </section>
+      <section class="card">
+        <h2>5. Aucune publicité ni pistage</h2>
+        <p>Tayyib n'intègre aucun SDK publicitaire ni outil de suivi comportemental et ne vend aucune donnée personnelle.</p>
+      </section>
+      <section class="card">
+        <h2>6. Avertissement religieux et indépendance</h2>
+        <p>Tayyib fournit des évaluations à titre informatif basées sur les données produit disponibles, les listes d'ingrédients, les mentions sur l'emballage et les évaluations communautaires. Tayyib est une application indépendante et n'est ni un organisme de certification Halal ni une institution religieuse. Vérifiez toujours l'emballage physique et consultez un organisme de certification reconnu ou un savant qualifié en cas de doute.</p>
+      </section>
+      <section class="card">
+        <h2>7. Contact</h2>
+        <p>Développeur indépendant : <strong>Muzamil Ahmad</strong><br />
+        E-mail : <a href="mailto:Muzamilofficially@gmail.com">Muzamilofficially@gmail.com</a><br />
+        LinkedIn : <a href="https://www.linkedin.com/in/muzamilahmadofficial" target="_blank" rel="noopener">linkedin.com/in/muzamilahmadofficial</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Muzamil Ahmad — Tayyib: Halal Food Scanner (ODbL data attribution: Halal Open Food Facts &amp; Open Food Facts)
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('content-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('content-fr').classList.toggle('hidden', lang !== 'fr');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+    }
+  </script>
+</body>
+</html>

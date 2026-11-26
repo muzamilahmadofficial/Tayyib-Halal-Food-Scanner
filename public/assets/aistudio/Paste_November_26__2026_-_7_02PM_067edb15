@@ -1,0 +1,1146 @@
+# COMPLETE MASTER PROMPT: BUILD TAYYIB — HALAL FOOD SCANNER
+## Create a Complete, Production-Ready Native Android Application for Google Play Store
+
+You are an autonomous senior Android development agent, product designer, UI/UX designer, software architect, backend engineer, food data specialist, Halal classification researcher, security engineer and Google Play release specialist.
+
+Your responsibility is to CREATE THE COMPLETE APPLICATION, not merely explain how to create it.
+
+I want you to independently make the necessary design, technical and development decisions, generate all required visual assets, implement every feature, test the application, fix errors and prepare the final Android application for Google Play Store submission.
+
+Do not stop after creating a prototype, a homepage, a few screens or a development plan.
+
+Build the actual working Android application.
+
+If a task requires several development iterations, continue working on the same project until all possible requirements have been implemented.
+
+Do not ask me to design the logo, write translations, create icons, select colors, prepare screens or manually implement ordinary application functionality. Make these decisions yourself using the specifications below.
+
+If a third-party integration requires credentials or permissions that are unavailable, build the complete integration architecture, implement the available functionality, clearly document the missing configuration and never pretend that an integration is operational when it is not.
+
+# 1. OFFICIAL APP IDENTITY
+
+Application name:
+
+Tayyib: Halal Food Scanner
+
+Short name:
+
+Tayyib
+
+Developer name:
+
+Muzamil Ahmad
+
+Developer classification:
+
+Independent Developer
+
+Developer email:
+
+Muzamilofficially@gmail.com
+
+Developer LinkedIn:
+
+https://www.linkedin.com/in/muzamilahmadofficial
+
+Primary data source:
+
+https://halalopenfoodfacts.org/en/
+
+API documentation:
+
+https://halalopenfoodfacts.org/api.html
+
+Target audience:
+
+Muslims worldwide who want to identify Halal, Haram and Doubtful food products by scanning their barcodes.
+
+Initial supported interface languages:
+
+1. English
+2. French
+
+Future architecture must support additional languages.
+
+Target market:
+
+Worldwide. Do not restrict the app to France or Europe.
+
+Application purpose:
+
+Help Muslims make more informed food choices by scanning packaged food barcodes, examining ingredients and additives, checking available Halal assessments and certifications, understanding why a product receives a particular classification and finding suitable Halal alternatives.
+
+The application must be independent.
+
+Do not represent Tayyib as an official application of Halal Open Food Facts, Open Food Facts, any Halal certification organization or any religious institution.
+
+Do not add account registration, login, password authentication, Google Sign-In or mandatory subscriptions.
+
+The complete core application must work without creating an account.
+
+# 2. CREATE THE COMPLETE BRAND IDENTITY YOURSELF
+
+You must create the original Tayyib brand identity before implementing the interface.
+
+Do not ask me to provide a logo.
+
+Create an original professional logo that communicates:
+
+- Purity
+- Trust
+- Food
+- Halal awareness
+- Transparency
+- Quality
+
+Recommended logo concept:
+
+A sophisticated forest-green symbol combining a leaf and a checkmark, with subtle Islamic geometric inspiration.
+
+The logo must be modern, minimal, recognizable and suitable for an international mobile application.
+
+Create the following assets:
+
+1. Primary horizontal logo.
+2. Vertical logo.
+3. Standalone app icon.
+4. Adaptive Android launcher icon.
+5. Monochrome Android icon.
+6. Small favicon.
+7. Splash-screen logo.
+8. Light-background logo.
+9. Dark-background logo.
+10. Google Play Store feature graphic.
+11. Promotional app artwork.
+12. App screenshots and marketing visuals.
+
+Generate actual image assets using available image-generation capabilities, then create the required Android resource assets from the generated designs.
+
+Do not use a screenshot of a logo as the final launcher icon.
+
+Use clean vector artwork wherever possible.
+
+Generate high-resolution assets and optimize them for Android.
+
+BRAND COLORS:
+
+Primary green: #123D32
+
+Dark green: #09271F
+
+Ivory: #F8F6EF
+
+Gold: #C9A45C
+
+Halal green: #238B45
+
+Haram red: #C62828
+
+Doubtful amber: #D99018
+
+Unknown grey: #64748B
+
+Typography:
+
+Use Inter or another modern, readable Android-compatible font.
+
+Visual style:
+
+- Premium
+- Elegant
+- Minimal
+- Modern
+- Clean
+- Trustworthy
+- Islamic-inspired without excessive decorative elements
+- Suitable for worldwide audiences
+
+Use Material 3 design principles with custom branding.
+
+# 3. NATIVE ANDROID TECHNOLOGY
+
+Build a real native Android application.
+
+Preferred technology:
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- MVVM architecture
+- Clean architecture
+- Repository pattern
+- Kotlin Coroutines
+- StateFlow
+- Retrofit or Ktor
+- OkHttp
+- Kotlin Serialization or Moshi
+- Room Database
+- DataStore
+- CameraX
+- Google ML Kit Barcode Scanning
+- Android SoundPool
+- WorkManager where necessary
+
+Use current stable compatible dependencies.
+
+Build a maintainable application with separate packages for:
+
+- Core
+- UI
+- Navigation
+- Data
+- Domain
+- Networking
+- Database
+- Scanner
+- HalalEngine
+- Ingredients
+- Alternatives
+- Localization
+- Settings
+- Legal
+
+Do not put the entire application into one Activity or one Kotlin file.
+
+Do not build a web application disguised as an Android app.
+
+The deliverable must be a native Android project that can be compiled and installed on Android devices.
+
+Suggested package name:
+
+com.muzamilahmad.tayyib
+
+Verify package-name uniqueness before finalizing it.
+
+# 4. COMPLETE APPLICATION SCREENS
+
+Create and connect all the following screens.
+
+A. Splash Screen
+- Original Tayyib logo.
+- App name.
+- Elegant animation.
+- Forest-green and ivory identity.
+
+B. Home Screen
+- Tayyib branding.
+- Welcome message.
+- Main Scan Product button.
+- Product search.
+- Manual ingredient checker.
+- E-number guide.
+- Halal alternatives.
+- Recently scanned products.
+- Favourites shortcut.
+- Language selector.
+- Settings shortcut.
+
+C. Barcode Scanner
+- Live camera preview.
+- Barcode scanning frame.
+- Animated scanning indicator.
+- Flashlight.
+- Manual barcode entry.
+- Camera permissions.
+- Scanning sound.
+- Haptic feedback.
+
+D. Product Details
+- Product photograph.
+- Product name.
+- Brand.
+- Barcode.
+- Country.
+- Ingredients.
+- Additives.
+- Allergens.
+- Halal assessment.
+- Explanation.
+- Certification information.
+- Data source.
+- Last update.
+
+E. Halal Alternatives
+- Similar products.
+- Alternative brands.
+- Product images.
+- Halal assessment.
+- Country information.
+- Supporting evidence.
+
+F. Product Search
+- Search by name.
+- Search by barcode.
+- Search by brand.
+- Search by category.
+- Search by country.
+- Filter by classification.
+
+G. Ingredient Checker
+- Paste ingredient lists.
+- Identify questionable ingredients.
+- Identify E-numbers.
+- Explain ingredient origins.
+- Display an assessment.
+
+H. E-number Guide
+- Searchable additive database.
+- E-number.
+- Common name.
+- French name.
+- Function.
+- Origin.
+- Halal assessment.
+- Explanation.
+
+I. History
+- Recently scanned products.
+- Scan date.
+- Product image.
+- Verdict.
+- Clear history.
+
+J. Favourites
+- Saved products.
+- Last known verdict.
+- Last verification date.
+
+K. Settings
+- Language.
+- Theme.
+- Sound.
+- Vibration.
+- Cache.
+- History.
+- Privacy.
+- Legal information.
+
+L. About
+- App information.
+- Developer information.
+- Data sources.
+- Credits.
+- Contact details.
+
+M. Legal Screens
+- Privacy policy.
+- Terms of use.
+- Halal methodology.
+- Religious disclaimer.
+- Data attribution.
+- Licenses.
+
+Create a professional bottom navigation system:
+
+1. Home
+2. Scan
+3. Alternatives
+4. History
+5. Settings
+
+Ensure every screen is connected through functional navigation.
+
+# 5. BARCODE SCANNER
+
+Implement a real camera-based barcode scanner using CameraX and ML Kit.
+
+Support:
+
+- EAN-13
+- EAN-8
+- UPC-A
+- UPC-E
+- Code 128
+- Code 39
+- QR codes where useful
+
+When a barcode is scanned:
+
+1. Read the barcode.
+2. Validate its format.
+3. Prevent repeated scanning.
+4. Play a scanning confirmation sound.
+5. Show a loading indicator.
+6. Retrieve product information.
+7. Analyze the product.
+8. Display its classification.
+9. Save the scan in local history.
+
+Add:
+
+- Flashlight.
+- Manual barcode entry.
+- Camera permission management.
+- Scanning animation.
+- Error handling.
+- Scan cancellation.
+
+Do not repeatedly call the API while the same barcode remains in the camera frame.
+
+If a product is not found, display:
+
+"We couldn't find this product."
+
+Provide options to search manually, enter ingredients or retry.
+
+Never classify an unknown barcode as Haram.
+
+# 6. DIFFERENT SCAN SOUNDS
+
+Create original short audio assets for:
+
+- Scanning confirmation.
+- Halal result.
+- Haram result.
+- Doubtful result.
+- Unknown result.
+
+Each verdict must have a distinct sound.
+
+The sounds must be pleasant, recognizable and not excessively loud.
+
+Add vibration feedback.
+
+Allow users to enable or disable sounds and vibration independently.
+
+Play the verdict sound only after the actual classification is completed.
+
+Never play a positive Halal sound for an Unknown result.
+
+# 7. PRIMARY DATA SOURCE: HALAL OPEN FOOD FACTS
+
+Integrate the actual Halal Open Food Facts API.
+
+Website:
+
+https://halalopenfoodfacts.org/en/
+
+Documentation:
+
+https://halalopenfoodfacts.org/api.html
+
+Use these documented endpoints:
+
+PRODUCT LOOKUP:
+
+GET
+https://halalopenfoodfacts.org/proxy/v2/product/{barcode}.json
+
+PRODUCT SEARCH:
+
+GET
+https://halalopenfoodfacts.org/proxy/v2/search?q={query}&page_size={limit}&page={page}
+
+Use the official documentation to implement supported filters, pagination and fields.
+
+Relevant available product information may include:
+
+- code
+- product_name
+- product_name_en
+- product_name_fr
+- brands
+- image_url
+- image_front_url
+- ingredients_text
+- ingredients_text_en
+- ingredients_text_fr
+- ingredients_tags
+- additives_tags
+- allergens_tags
+- labels_tags
+- categories_tags
+- countries_tags
+- ingredients_analysis_tags
+- nutrition data
+- halal_status
+- halal
+- is_halal
+- product_url
+- last_modified_t
+
+Parse fields defensively.
+
+Do not assume all fields are always available.
+
+Use the actual API response to determine whether verdict and reasoning fields exist.
+
+Respect documented rate limits, caching and attribution requirements.
+
+Do not invent API response fields.
+
+Do not fabricate successful API calls.
+
+If the API is unavailable, use a cached response where available and clearly indicate that the result is not freshly verified.
+
+Create a dedicated API service and repository.
+
+# 8. HALAL CLASSIFICATION ENGINE
+
+Build an independent local ingredient-analysis engine.
+
+This is the most important feature.
+
+Supported final classifications:
+
+HALAL
+HARAM
+DOUBTFUL
+UNKNOWN
+
+The engine must analyze:
+
+1. Upstream Halal Open Food Facts assessment.
+2. Ingredient declarations.
+3. E-numbers.
+4. Additive origins.
+5. Halal certification information.
+6. Product labels.
+7. Data completeness.
+8. Conflicting evidence.
+9. Information freshness.
+
+IMPORTANT RELIGIOUS ACCURACY RULES:
+
+- Missing information does not mean Haram.
+- Vegan does not automatically mean certified Halal.
+- Vegetarian does not automatically mean certified Halal.
+- Absence of pork does not prove certification.
+- E471 does not have one universal origin.
+- Gelatin requires source verification.
+- E120 requires careful treatment and transparent explanation.
+- Alcohol-related ingredients require context.
+- Conflicting evidence must be explained.
+- Unknown origins must not be presented as confirmed facts.
+
+Use these definitions:
+
+HALAL:
+Available evidence supports a Halal assessment according to the documented application methodology.
+
+HARAM:
+Reliable evidence identifies a clearly prohibited ingredient or other clearly non-compliant information according to the disclosed methodology.
+
+DOUBTFUL:
+An ingredient, source or certification issue requires further verification.
+
+UNKNOWN:
+There is insufficient reliable information to determine the status.
+
+Every result must include a detailed explanation.
+
+Create a confidence and evidence-quality indicator.
+
+Do not present an arbitrary numerical percentage as scientific certainty.
+
+Clearly distinguish:
+
+- Community assessment.
+- Ingredient analysis.
+- Certification verification.
+- Final application assessment.
+
+Create versioned classification rules so the ingredient database can be updated without changing the user interface.
+
+# 9. INGREDIENT DATABASE AND E-NUMBERS
+
+Create:
+
+assets/halal_ingredients_taxonomy.json
+
+Bundle an offline ingredient and additive dictionary.
+
+Include English and French terminology.
+
+Include common names, alternative names, spellings and relevant scientific names.
+
+Include at least these additives:
+
+E120
+E441
+E471
+E472
+E481
+E482
+E476
+E322
+E904
+E542
+
+Research additional relevant additives.
+
+For every ingredient, store:
+
+- Name.
+- French name.
+- Alternative spellings.
+- E-number where applicable.
+- Typical origin.
+- Alternative origins.
+- Classification category.
+- Explanation.
+- Evidence quality.
+- Reference.
+- Rule version.
+
+Use categories such as:
+
+- Clearly prohibited.
+- Source-dependent.
+- Generally permissible under the disclosed methodology.
+- Insufficient information.
+- Requires further verification.
+
+Create reliable text normalization and ingredient matching.
+
+Do not rely only on basic substring matching.
+
+Support French food-label terms such as:
+
+- Gélatine
+- Saindoux
+- Graisse animale
+- Porc
+- Alcool
+- Vin
+- Bière
+- Présure
+- Carmine
+
+Create automated classification tests.
+
+# 10. HALAL ALTERNATIVES
+
+Build a functional alternative recommendation engine.
+
+When a product is Haram or Doubtful, recommend similar products with supporting Halal evidence.
+
+Consider:
+
+- Category.
+- Product type.
+- Ingredients.
+- Brand.
+- Country.
+- Halal assessment.
+- Certification evidence.
+- Data freshness.
+
+Example:
+
+If a user scans chocolate biscuits containing pork-derived gelatin, suggest similar biscuits with reliable Halal evidence.
+
+Every recommendation must show its own classification.
+
+Do not assume vegan products are certified Halal.
+
+Do not fabricate product names, images, certifications or supermarket availability.
+
+If no suitable alternative exists, display:
+
+"No verified alternatives found yet."
+
+Provide options to view, save, scan and share recommended products.
+
+# 11. WORLDWIDE PRODUCT SUPPORT
+
+Build the app for international products.
+
+Support available products from:
+
+- France
+- Germany
+- United Kingdom
+- United States
+- Canada
+- Pakistan
+- India
+- Indonesia
+- Malaysia
+- Turkey
+- Saudi Arabia
+- UAE
+- Morocco
+- Algeria
+- Tunisia
+- Other countries supported by the data sources.
+
+Use international barcode standards.
+
+Support different ingredient names and languages.
+
+Create an extensible certification-source architecture.
+
+Investigate public information and available integration options from:
+
+- JAKIM.
+- BPJPH.
+- IFANCA.
+- Other recognized national and regional certification bodies.
+
+Do not claim official database verification unless the actual official source has been integrated and the certificate has been checked.
+
+Show the source and verification date where available.
+
+# 12. PRODUCT SEARCH AND FILTERS
+
+Create a complete search experience.
+
+Search using:
+
+- Product name.
+- Brand.
+- Barcode.
+- Category.
+- Country.
+
+Filters:
+
+- Halal.
+- Haram.
+- Doubtful.
+- Unknown.
+
+Include pagination, caching, loading states and empty results.
+
+Display real product images only when available.
+
+# 13. MANUAL INGREDIENT CHECKER
+
+Allow users to paste product ingredients.
+
+Analyze:
+
+- Ingredients.
+- E-numbers.
+- Possible animal-derived substances.
+- Alcohol-related terms.
+- Source-dependent ingredients.
+
+Display:
+
+- Detected ingredients.
+- Potential concerns.
+- Explanations.
+- Final assessment.
+- Evidence limitations.
+
+Support English and French input.
+
+Make it clear that this is an analysis of the supplied text, not an independently verified complete product assessment.
+
+# 14. OFFLINE MODE
+
+Implement:
+
+- Offline ingredient database.
+- Offline E-number dictionary.
+- Cached product information.
+- Local history.
+- Local favourites.
+- Offline manual ingredient checker.
+
+If a previously scanned product is cached, show its information and last verification date.
+
+If it is not cached, clearly explain that internet access is required for product lookup.
+
+Never invent a product verdict offline.
+
+# 15. ENGLISH AND FRENCH
+
+Implement complete localization.
+
+Create:
+
+values/strings.xml
+
+values-fr/strings.xml
+
+Translate all application interface text, including:
+
+- Navigation.
+- Buttons.
+- Product explanations.
+- Ingredient warnings.
+- Errors.
+- Loading messages.
+- Settings.
+- Legal pages.
+- Disclaimers.
+- Alternatives.
+- Notifications.
+
+Use natural, professional French.
+
+Allow users to switch languages inside the application without restarting it.
+
+Automatically use the device language when supported.
+
+Default to English otherwise.
+
+# 16. HISTORY AND FAVOURITES
+
+Use Room Database.
+
+Store scan history and favourites locally.
+
+Allow users to:
+
+- Open previous scans.
+- View previous classifications.
+- Save products.
+- Remove favourites.
+- Clear history.
+- Recheck product information.
+
+Do not require an account or cloud synchronization.
+
+# 17. PRIVACY AND SECURITY
+
+The application must work without registration.
+
+Do not request unnecessary personal information.
+
+Required permissions should be limited to:
+
+- Camera.
+- Internet.
+- Network state.
+
+Do not request location for ordinary scanning.
+
+Keep history and favourites locally.
+
+Do not add unnecessary analytics or advertising SDKs.
+
+If any analytics or crash reporting is included, disclose it and provide suitable privacy controls.
+
+Implement secure network communication.
+
+Never expose private API keys or signing credentials.
+
+Prepare an accurate Google Play Data Safety declaration based on the actual implemented SDKs and data collection.
+
+# 18. ABOUT THE DEVELOPER
+
+Create a professionally designed About screen.
+
+Display:
+
+Tayyib: Halal Food Scanner
+
+Developed by:
+
+Muzamil Ahmad
+
+Independent Developer
+
+Email:
+
+Muzamilofficially@gmail.com
+
+LinkedIn:
+
+https://www.linkedin.com/in/muzamilahmadofficial
+
+About text:
+
+"Tayyib is an independent project created to help Muslims worldwide make more informed food choices. By scanning product barcodes and examining available ingredients, additives, labels and Halal-related information, Tayyib aims to make product research easier and more accessible."
+
+Do not describe the developer as a religious scholar or certification authority.
+
+# 19. DATA SOURCES AND CREDITS
+
+Create a complete attribution and licenses page.
+
+Primary data source:
+
+Halal Open Food Facts
+https://halalopenfoodfacts.org/en/
+
+API documentation:
+https://halalopenfoodfacts.org/api.html
+
+Open Food Facts:
+https://world.openfoodfacts.org/
+
+Documentation:
+https://openfoodfacts.github.io/documentation/
+
+Additional possible sources:
+
+- HenkDz/halal-ingredient-checker-api
+- @halallens/halal-scanner
+- IFANCA
+- JAKIM
+- BPJPH
+
+Before incorporating any external dataset, verify its license and redistribution conditions.
+
+Comply with Open Food Facts ODbL attribution and applicable share-alike requirements.
+
+Respect product image licensing separately.
+
+Clearly state that Tayyib is an independent application and is not endorsed by these organizations.
+
+# 20. LEGAL DOCUMENTS
+
+Create professionally written, accessible English and French versions of:
+
+1. Privacy Policy.
+2. Terms of Use.
+3. Religious Disclaimer.
+4. Halal Classification Methodology.
+5. Data Sources and Attribution.
+6. Open-source Licenses.
+
+Religious disclaimer:
+
+"Tayyib provides informational assessments based on available product data, ingredient lists, labels, community evaluations and other referenced sources.
+
+Tayyib is an independent application and is not a Halal certification authority or religious institution.
+
+Product information may be incomplete, outdated or incorrect. A database assessment does not necessarily constitute independent certification.
+
+Halal interpretations can differ between scholars, certification organizations and Islamic schools of thought.
+
+Users should check product packaging and consult trusted certification bodies or qualified religious authorities when uncertain.
+
+Tayyib does not guarantee that any product is Halal, and its assessments should not replace personal verification or religious guidance."
+
+Create an accurate French translation.
+
+Do not make unsupported legal claims.
+
+# 21. REPORT INCORRECT INFORMATION
+
+Add reporting functionality for:
+
+- Incorrect product details.
+- Incorrect ingredients.
+- Incorrect barcode.
+- Incorrect classification.
+- Incorrect image.
+- Missing certification.
+- Incorrect alternatives.
+
+If no reporting backend is available, provide a prepared email draft or a clearly disclosed alternative.
+
+Never show a false successful submission.
+
+Never send an email without user confirmation.
+
+# 22. ACCESSIBILITY AND PERFORMANCE
+
+Implement:
+
+- TalkBack compatibility.
+- Screen-reader labels.
+- Accessible contrast.
+- Dynamic font scaling.
+- Large touch targets.
+- Efficient image loading.
+- Lazy lists.
+- Background network operations.
+- Proper camera lifecycle management.
+- Smooth scanning.
+- Memory optimization.
+- Reliable offline behavior.
+
+# 23. TESTING AND QUALITY ASSURANCE
+
+Create automated tests for:
+
+- Ingredient matching.
+- E-number classification.
+- Halal classification.
+- Conflicting evidence.
+- Missing data.
+- API parsing.
+- Product alternatives.
+- Offline behavior.
+- Language switching.
+- Database storage.
+
+Create UI tests for all major navigation paths.
+
+Use fictional products only in isolated test fixtures, never in real product search results.
+
+Compile the entire project regularly.
+
+Resolve all compilation errors and dependency conflicts.
+
+Test on different Android screen sizes.
+
+Do not claim that a test passed unless it was actually executed successfully.
+
+# 24. GOOGLE PLAY STORE ASSETS
+
+Create the complete Play Store package.
+
+Generate:
+
+1. High-resolution app icon.
+2. Adaptive launcher icon.
+3. Feature graphic.
+4. Phone screenshots.
+5. Promotional artwork.
+6. English store description.
+7. French store description.
+8. Short description.
+9. Privacy policy.
+10. Release notes.
+11. App category and content-rating guidance.
+12. Data Safety guidance.
+
+Suggested title:
+
+Tayyib: Halal Food Scanner
+
+Suggested short description:
+
+"Scan food barcodes and explore Halal status, ingredients and alternatives."
+
+Suggested tagline:
+
+"Scan. Know. Choose Wisely."
+
+Create attractive screenshots showing:
+
+- Home screen.
+- Barcode scanner.
+- Halal product result.
+- Haram product result.
+- Doubtful product result.
+- Ingredient analysis.
+- Halal alternatives.
+- English and French interfaces.
+
+Use real application screenshots wherever possible.
+
+Do not create fake screenshots that misrepresent implemented features.
+
+Follow the current Google Play asset specifications and Android target API requirements at release time.
+
+# 25. APPLICATION RELEASE
+
+Prepare the complete Android release configuration.
+
+Deliver:
+
+- Full Kotlin source code.
+- Complete Android Studio project.
+- Gradle configuration.
+- Required dependencies.
+- All image assets.
+- Sound assets.
+- Local ingredient database.
+- Localization files.
+- Tests.
+- Documentation.
+- Release configuration.
+- Android App Bundle (.aab).
+
+Configure release signing securely.
+
+Never hardcode signing passwords.
+
+If signing credentials are required, provide instructions for the developer to configure them securely.
+
+Do not claim Play Store approval or publication before Google actually approves the application.
+
+# 26. DEVELOPMENT EXECUTION
+
+Start developing immediately.
+
+Follow this order:
+
+PHASE 1:
+Generate the original logo, complete branding, app icons, design system, splash screen, navigation and home screen.
+
+PHASE 2:
+Build the complete barcode scanner, camera integration, flashlight, manual entry, scan sounds and vibration.
+
+PHASE 3:
+Integrate Halal Open Food Facts, product search, barcode lookup, data parsing and caching.
+
+PHASE 4:
+Build the local ingredient engine, E-number dictionary, Halal classification and evidence explanations.
+
+PHASE 5:
+Build product details, alternatives, history, favourites and offline functionality.
+
+PHASE 6:
+Implement English/French translations, settings, About screen, legal pages, credits and privacy.
+
+PHASE 7:
+Complete automated tests, UI testing, accessibility and performance optimization.
+
+PHASE 8:
+Generate Play Store graphics, descriptions, documentation and the Android App Bundle.
+
+Do not restart the project between phases.
+
+Preserve working code.
+
+Do not leave nonfunctional placeholder buttons.
+
+If something cannot be implemented because an external service is unavailable, explain the limitation and complete the rest of the application.
+
+# 27. FINAL DELIVERY REQUIREMENTS
+
+The project is only considered complete when:
+
+- The original Tayyib logo has been generated.
+- All app icons have been created.
+- The complete native Android application exists.
+- Barcode scanning works.
+- Real product lookup works.
+- Product search works.
+- Ingredients are analyzed.
+- E-numbers are analyzed.
+- Halal, Haram, Doubtful and Unknown classifications work.
+- Explanations are displayed.
+- Alternatives are recommended when reliable data exists.
+- English and French are fully implemented.
+- Offline features work.
+- Scan sounds work.
+- History and favourites work.
+- No login or signup is required.
+- Privacy and legal screens exist.
+- Attribution is implemented.
+- Automated tests are created and executed.
+- The Android project compiles.
+- Release configuration is prepared.
+- Play Store assets are generated.
+- The AAB build is generated or any remaining signing requirement is clearly documented.
+
+At completion, provide a summary containing:
+
+1. Features completed.
+2. Features not completed and why.
+3. External integrations requiring configuration.
+4. Test results.
+5. Android project location.
+6. Logo and graphics asset locations.
+7. AAB file location, if successfully generated.
+8. Instructions for installing and testing the application.
+9. Instructions for publishing it to Google Play.
+
+IMPORTANT FINAL INSTRUCTION:
+
+I do not want a tutorial, a plan, a static prototype or a description of a proposed application.
+
+I want you to CREATE THE ACTUAL APPLICATION.
+
+Make reasonable decisions independently.
+
+Create the logo, icons, UI, assets, source code, database, integrations, tests and release configuration yourself.
+
+Build the most professional, reliable and useful worldwide Halal food-scanning Android application possible under the name:
+
+# TAYYIB: HALAL FOOD SCANNER
+
+Developed independently by Muzamil Ahmad.
+
+BEGIN BUILDING THE COMPLETE APPLICATION NOW.

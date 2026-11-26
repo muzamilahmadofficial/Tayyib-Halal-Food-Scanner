@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tayyib_forest_green">#123D32</color>
+    <color name="tayyib_dark_green">#09271F</color>
+    <color name="tayyib_ivory">#F8F6EF</color>
+    <color name="tayyib_gold">#C9A45C</color>
+    <color name="tayyib_halal_green">#238B45</color>
+    <color name="tayyib_haram_red">#C62828</color>
+    <color name="tayyib_doubtful_amber">#D99018</color>
+    <color name="tayyib_unknown_grey">#64748B</color>
+</resources>
